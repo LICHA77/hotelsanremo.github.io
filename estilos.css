@@ -1,0 +1,284 @@
+body{
+	margin:0px;
+	font-family: arial, verdana,  sans-serif;
+}
+.c{
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items: center;
+    flex-direction: column;
+	margin:0px;
+}
+header img{
+	width:100%;
+}
+header{
+	display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    background: linear-gradient(to right, #992900, #24288c);
+    justify-content: space-between;
+}
+nav{
+	display:flex;
+	align-items: center;
+    justify-content: space-around;
+	width:60%;
+	margin-right:5%;
+}
+nav a:link, nav a:visited{
+	display:flex;
+	align-items: center;
+    justify-content: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	font-size:18px;
+	width: auto;
+	padding:0.5%;
+	border-radius:10px;
+	transition: background-color 1s, font-size 1s;
+}
+nav a:hover{
+	font-size: 20px;
+	background-color: rgba(255, 100, 0,0.2);
+}
+main{
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+	font-size:17px;
+	text-align:justify;
+	line-height:30px;
+}
+h1{
+	color: #992900;
+	font-size:30px;
+	text-shadow: 0px 0px 2px #000;
+	text-align:center;
+}
+h2{
+	color:#e37500;
+	font-size:23px;
+	text-align:center;
+}
+.c-{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+	margin-bottom:2%;
+}
+.fi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #666;
+    border-width: 1px;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+.fi h2{
+	color:#e37500;
+	font-size:17px;
+	text-align:center;
+}
+.h{
+	display: flex;
+    margin: 1%;
+    margin-bottom: 4%;
+}
+.hi{
+	margin-right:2%;
+	margin-top:1%;
+	width:90%;
+	display:flex;
+}
+.hi img{
+	border-radius:10px;
+}
+.h p, .h ul{
+	line-height:25px;
+}
+.h h2{
+	color:#e37500;
+	font-size:17px;
+	text-align:center;
+}
+.con{
+	display:flex;
+	margin-bottom:1%;
+	justify-content: space-evenly;
+	width:100%;
+	height:100%
+}
+.in{
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	width: 40%;
+}
+.con2{
+	display:flex;
+}
+.con2 ul{
+	line-height:35px;
+}
+.con2 p{
+	line-height:25px;
+	margin:0%;
+}
+form{
+	display: flex;
+    flex-direction: column;
+	width: 100%;
+    height: 100%;
+	justify-content: space-evenly;
+}
+form input{
+	height:20px;
+	border-style: solid;
+    border-radius: 5px;
+    border-color: #e37500;
+    border-width: 1px;
+	padding:1%;
+	margin-bottom:5%;
+}
+form textarea{
+	height:80%;
+	border-style: solid;
+    border-radius: 5px;
+    border-color: #e37500;
+    border-width: 1px;
+	padding:1%;
+	margin-bottom:2%;
+	font-family: arial, verdana,  sans-serif;
+}
+.form button{
+	width:20%;
+	color:#000;
+	background-color:white;
+	border-style: solid;
+    border-radius: 5px;
+    border-color: #e37500;
+    border-width: 3px;
+	padding:1%;
+}
+.form{
+	display:flex;
+	justify-content: flex-end;
+}
+.p2{
+	line-height:17px;
+	font-size:17px;
+}
+.h12{
+	text-align:left;
+}
+.h22{
+	text-align:left;
+}
+footer{
+	display: flex;
+    background: linear-gradient(to right, #992900, #24288c);
+    height: auto;
+    width: 94%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+	padding-right:3%;
+	padding-left:3%;
+}
+.tf{
+}
+.tf p{
+	color:white;
+}
+.tf a:link, .tf a:hover, .tf a:visited{
+	text-decoration: none;
+}
+@media screen and (max-width:800px){
+	header{
+		flex-direction:column;
+	}
+	nav a:link, nav a:visited{
+		font-size:19px;
+	}
+	nav a:hoover{
+		font-size: 21px;
+	}
+	nav{
+		flex-direction: column;
+	}
+	main{
+		padding:4%;
+		width:92%;
+		align-items:normal;
+	}
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 18px;
+	}
+	.c{
+		flex-direction: column;
+	}
+	.fi{
+		width:100%;
+	}
+	.h, .h img{
+		width:100%;
+		flex-direction: column;
+	}
+	.hi{
+		width:98%;
+		margin-top:0%;
+	}
+	.con{
+		flex-direction: column;
+		align-items: center;
+	}
+	form input{
+		height:30px;
+	}
+	form textarea{
+		height:100px;
+	}
+	.in{
+		width:100%;
+	}
+	.h22{
+		text-align:center;
+	}
+	footer{
+		flex-direction: column;
+	}
+	.tf p{
+		text-align:center;
+		margin:auto;
+	}
+	.tf{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.df{
+		display: flex;
+		flex-direction: column;
+	}
+}
